@@ -12,11 +12,38 @@ __pycache__/
 # Notebooks
 .ipynb_checkpoints/
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
+# Misc dev folders
 pythonenv
 node_modules/
 .env
 .vscode/
+
+# Local secrets (example; do NOT commit real keys)
+Weeks 1-8/configs/api_keys.local.json
+
+# ===== Weeks 1-8 DATA (GENERATED) =====
+
+# Raw input datasets (downloaded)
+Weeks 1-8/data/raw/
+
+# Processed datasets (generated slices, combined dataset)
+Weeks 1-8/data/processed/
+
+# Keep the reusable attack prompt template
+!Weeks 1-8/data/processed/attack_prompts.json
+
+# Interim & output folders (notebook scratch + model responses/evals)
+Weeks 1-8/data/interim/
+Weeks 1-8/data/output/
+
+# Registry file (auto-generated)
+Weeks 1-8/data/registry.json
+
+# ===== Weeks 1-8 RESULTS (GENERATED) =====
+
+Weeks 1-8/results/runs/
+Weeks 1-8/results/exports/
